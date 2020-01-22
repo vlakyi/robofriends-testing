@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import CardList from './CardList';
+import CardList from '../components/Cards/CardList';
 const filteredRobots = [{
     id: 1,
     name: 'Leanne Graham',

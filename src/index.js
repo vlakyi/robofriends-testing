@@ -8,7 +8,7 @@ import 'tachyons';
 
 import App from './containers/App';
 import registerServiceWorker from './registerServiceWorker';
-import { requestRobots, searchRobots } from './reducers'
+import { requestRobots, searchRobots } from './Redux/reducers'
 
 import './index.css';
 

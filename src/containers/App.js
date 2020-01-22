@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { setSearchField, requestRobots } from '../actions';
+import { setSearchField, requestRobots } from '../Redux/actions';
 
-import MainPage from '../components/MainPage'
+import MainPage from '../components/MainPage/MainPage'
 
 import './App.css';
 

@@ -1,10 +1,10 @@
-import * as actions from './actions';
+import * as actions from '../actions';
 import {
     CHANGE_SEARCHFIELD,
     REQUEST_ROBOTS_PENDING,
     REQUEST_ROBOTS_SUCCESS,
     REQUEST_ROBOTS_FAILED
-   } from './constants';
+   } from '../Redux/constants';
 
    import configureMockStore from 'redux-mock-store'; // package for mocking react store
    import thunkMiddleware from 'redux-thunk';

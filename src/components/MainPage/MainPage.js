@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 
-import CardList from './CardList';
-import SearchBox from './SearchBox';
-import Scroll from './Scroll';
-import ErrorBoundry from './ErrorBoundry';
-import Header from './Header';
+import CardList from '../Cards/CardList';
+import SearchBox from '../SearchBox/SearchBox';
+import Scroll from '../Scroll/Scroll';
+import ErrorBoundry from '../ErrorBoundry/ErrorBoundry';
+import Header from '../Header/Header';
 
 export class MainPage extends Component {
   componentDidMount() {
